@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-image: url("A88.jpg");
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  background-color: rgb(110, 69, 31);
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+ul a:hover {
+  color: aliceblue;
+}
+
+li {
+  margin: 10px 30px;
+}
+
+.content {
+  margin: 10px 50px;
+  background-color: rgb(110, 69, 31);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.registration-card {
+  background-color: #2c2f36;   /* глубокий тёмно-серый фон */
+  color: #ffffff;              /* белый текст */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Цвет меток, текста и мелких пояснений */
+.registration-card label,
+.registration-card .form-text {
+  color: #ddd;
+}
+
+
+.registration-card .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.registration-card input.form-control {
+  background-color: #3a3d44;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.registration-card input::placeholder {
+  color: #ccc;
+}
