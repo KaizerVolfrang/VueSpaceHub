@@ -29,4 +29,4 @@ VueSpaceHub
 npm install
 
 Запуск dev-сервера
-npx ng serve
+npm run dev
